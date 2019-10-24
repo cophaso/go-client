@@ -25,6 +25,14 @@ nav {
   z-index: 10;
 }
 
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
 header {
   padding: 45px 15px;
 }
@@ -52,4 +60,9 @@ li div {
   -o-transition: box-shadow 0.5s ease;
   -ms-transition: box-shadow 0.5s ease;
   transition: box-shadow 0.5s ease;
+}
+
+.name {
+  text-align: center;
+  display: inline-block;
 }
