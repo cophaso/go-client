@@ -8,9 +8,9 @@ body {
   text-align: center;
   line-height: 1.5;
   background: #444;
-    min-height: 400px;
-    margin-bottom: 100px;
-    clear: both;
+  min-height: 400px;
+  margin-bottom: 100px;
+  clear: both;
 }
 
 nav,
@@ -43,7 +43,7 @@ header {
 
 /* Style inputs */
 input[type=text], input[type=date], input[type=number], select{
-  width: 500px;
+  width: 250px;
   padding: 12px 20px;
   margin: 8px 0;
   display: block;
@@ -54,7 +54,7 @@ input[type=text], input[type=date], input[type=number], select{
 
 /* Style the submit button */
 input[type=submit] {
-  width: 25%;
+  width: 50%;
   background-color: #666;
   color: white;
   padding: 20px 20px;

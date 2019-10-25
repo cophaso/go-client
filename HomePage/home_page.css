@@ -5,10 +5,12 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
-  /* color: #444; */
   text-align: center;
   line-height: 1.5;
   background: #333;
+  min-height: 400px;
+  margin-bottom: 100px;
+  clear: both;
 }
 
 nav,
@@ -34,32 +36,24 @@ footer {
 }
 
 header {
-  padding: 45px 15px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  margin-bottom: -20px;
 }
 
-.list {
-  width: 900px;
-  margin: 0 auto;
-  overflow: auto;
-}
- 
 ul {
-  list-style-type: none;
+  margin: 0 auto;
+  text-align: center;
 }
- 
-li div {
-  float: left;
+
+li {
+  display: inline-block;
+  vertical-align: top;
   margin: 10px;
   border: 5px solid #fff;
   width: 150px;
   height: 100px;
   background: #9e9d9d;
- 
-  -webkit-transition: box-shadow 0.5s ease;
-  -moz-transition: box-shadow 0.5s ease;
-  -o-transition: box-shadow 0.5s ease;
-  -ms-transition: box-shadow 0.5s ease;
-  transition: box-shadow 0.5s ease;
 }
 
 .name {
